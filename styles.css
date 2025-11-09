@@ -1,0 +1,51 @@
+body{
+    background: linear-gradient(rgb(0, 140, 255),rgb(0, 0, 0));
+}
+
+.nav{
+    gap: 50px;
+    display: flex;
+    height: 15%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    align-content: center;
+    background: linear-gradient(to right, rgb(0, 35, 151), rgb(0, 140, 255));
+}
+
+.menu{
+    width: 700px;
+    float: left;
+}
+
+ul{
+    float: left;
+    display: flex;
+
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 40px;
+    margin-right: 90px;
+    font-size: 24px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-family: arial;
+    font-weight: bold;
+}
+
+ul li a:hover{
+    color: red;
+}
+
+.txt{
+    background-color: rgb(140, 0, 255);
+    height: 100px;
+    width: 100px;
+}
